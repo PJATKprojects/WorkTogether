@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52d4e962-ac60-41ab-8a93-d52b73c565d3" name="Changes" comment="deleted unused import">
+      <change afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/entitys/OwnSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/enums/ProjectStatusEnum.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/enums/ProjectType.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/enums/RoleEnum.java" afterDir="false" />
@@ -26,6 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+        <entry key="$PROJECT_DIR$" value="back_main" />
         <entry key="$PROJECT_DIR$" value="Linney34-entitys" />
       </map>
     </option>
@@ -55,6 +58,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Linney34-entitys&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
