@@ -21,6 +21,6 @@ public class RestorePasswordMail {
 
     private LocalDateTime expiryDate;
 
-/*    @OneToOne(fetch = FetchType.LAZY)
-    private User user;*/
+    @OneToOne(fetch = FetchType.LAZY)
+    private User user;
 }

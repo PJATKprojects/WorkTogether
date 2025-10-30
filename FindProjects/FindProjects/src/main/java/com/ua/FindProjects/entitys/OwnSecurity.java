@@ -18,6 +18,6 @@ public class OwnSecurity {
     @Column(nullable = false)
     private String password;
 
-/*    @OneToOne
-    User user;*/
+    @OneToOne
+    User user;
 }

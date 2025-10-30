@@ -20,13 +20,13 @@ public class UserRating {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-/*    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "rater_id", nullable = false)
     private User rater;
 
     @ManyToOne(fetch = FetchType.LAZY,optional = false)
     @JoinColumn(name = "rated_user_id", nullable = false)
-    private User ratedUser;*/
+    private User ratedUser;
 
     @Column(nullable = false)
     @Min(1)

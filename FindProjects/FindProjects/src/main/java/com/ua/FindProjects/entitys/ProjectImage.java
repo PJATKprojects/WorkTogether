@@ -11,7 +11,7 @@ import lombok.*;
 @ToString(exclude = "project")
 @EqualsAndHashCode(exclude = "project")
 @Builder
-public class ProjectImages {
+public class ProjectImage {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
@@ -19,7 +19,7 @@ public class ProjectImages {
     private String url;
     private boolean isMain;
 
-/*    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "project_id")
-    private Project project;*/
+    private Project project;
 }

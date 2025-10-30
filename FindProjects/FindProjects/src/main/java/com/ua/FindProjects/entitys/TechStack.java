@@ -6,6 +6,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Set;
+
 @Entity
 @Table(name = "tech_stack")
 @Data
@@ -21,9 +23,9 @@ public class TechStack {
     @Column(nullable = false, unique = true)
     private String name;
 
-    /*@ManyToMany(mappedBy = "techStacks")
-    private Set<User> users;*/
+    @ManyToMany(mappedBy = "techStacks")
+    private Set<User> users;
 
-    /*@ManyToMany(mappedBy = "techStack")
-    private Set<Project> projects;*/
+    @ManyToMany(mappedBy = "techStack")
+    private Set<Project> projects;
 }

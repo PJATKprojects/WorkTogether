@@ -27,7 +27,7 @@ public class Notification {
     @Builder.Default
     private LocalDateTime created = LocalDateTime.now();
 
-/*    @ManyToOne
+    @ManyToOne
     @JoinColumn(name = "user_id")
-    private User user;*/
+    private User user;
 }
