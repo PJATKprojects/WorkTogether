@@ -7,6 +7,10 @@
     <list default="true" id="52d4e962-ac60-41ab-8a93-d52b73c565d3" name="Changes" comment="deleted unused import">
       <change afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/entitys/OwnSecurity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/enums/ProjectStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/enums/ProjectType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/enums/RoleEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/enums/UserStatusEnum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -24,6 +29,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="back_main" />
+        <entry key="$PROJECT_DIR$" value="Linney34-entitys" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,6 +71,19 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Linney34-enums",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration name="FindProjectsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
