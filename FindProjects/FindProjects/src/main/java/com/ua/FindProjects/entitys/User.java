@@ -8,8 +8,13 @@ import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import lombok.*;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
 
 import java.time.LocalDateTime;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 import java.util.Set;
 
@@ -23,7 +28,7 @@ import java.util.Set;
         exclude = {"verifyEmail", "ownSecurity", "restorePasswordEmail", "followers", "following"})
 @ToString(
         exclude = {"verifyEmail", "ownSecurity", "restorePasswordEmail", "followers", "following"})
-public class User {
+public class User implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -103,4 +108,39 @@ public class User {
 
     @ManyToMany(mappedBy = "participants")
     private Set<Project> projectsParticipated;
+
+    @Override
+    public Collection<? extends GrantedAuthority> getAuthorities() {
+        return Collections.singletonList(new SimpleGrantedAuthority(role.name()));
+    }
+
+    @Override
+    public String getPassword() {
+        return ownSecurity!=null ? ownSecurity.getPassword() : "";
+    }
+
+    @Override
+    public String getUsername() {
+        return email;
+    }
+
+    @Override
+    public boolean isAccountNonExpired() {
+        return userStatusEnum!=UserStatusEnum.DEACTIVATED;
+    }
+
+    @Override
+    public boolean isAccountNonLocked() {
+        return userStatusEnum!=UserStatusEnum.BLOCKED;
+    }
+
+    @Override
+    public boolean isCredentialsNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isEnabled() {
+        return userStatusEnum==UserStatusEnum.ACTIVATED;
+    }
 }
