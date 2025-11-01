@@ -23,7 +23,7 @@ import java.util.Set;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Table(name = "user")
+@Table(name = "users")
 @EqualsAndHashCode(
         exclude = {"verifyEmail", "ownSecurity", "restorePasswordEmail", "followers", "following"})
 @ToString(

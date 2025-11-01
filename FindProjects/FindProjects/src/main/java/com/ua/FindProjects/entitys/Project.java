@@ -53,4 +53,8 @@ public class Project {
             inverseJoinColumns = @JoinColumn(name = "user_id")
     )
     private Set<User> participants;
+
+
+    @ManyToMany(mappedBy = "projects")
+    private Set<TechStack> techStacks;
 }

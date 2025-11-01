@@ -22,5 +22,6 @@ public class RestorePasswordMail {
     private LocalDateTime expiryDate;
 
     @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id")
     private User user;
 }

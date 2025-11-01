@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52d4e962-ac60-41ab-8a93-d52b73c565d3" name="Changes" comment="deleted unused import">
-      <change afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/entitys/OwnSecurity.java" afterDir="false" />
+    <list default="true" id="52d4e962-ac60-41ab-8a93-d52b73c565d3" name="Changes" comment="Added securityFiles">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/enums/ProjectStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/enums/ProjectType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/enums/RoleEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/enums/UserStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FindProjects/FindProjects/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FindProjects/FindProjects/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/entitys/OwnSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/entitys/OwnSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/entitys/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/entitys/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/entitys/RestorePasswordMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/entitys/RestorePasswordMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/entitys/TechStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/entitys/TechStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/entitys/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/entitys/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/entitys/VerifyMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/entitys/VerifyMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/repos/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/repos/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/security/JwtTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/security/JwtTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/FindProjects/FindProjects/src/main/java/com/ua/FindProjects/security/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +66,13 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Linney34-entitys&quot;,
+    &quot;Spring Boot.FindProjectsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Linney34-security-jwt-oauth&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -71,19 +82,6 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Linney34-enums",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
   <component name="RunManager">
     <configuration name="FindProjectsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
@@ -113,6 +111,8 @@
       <workItem from="1761684522475" duration="1329000" />
       <workItem from="1761763563793" duration="1849000" />
       <workItem from="1761837669087" duration="313000" />
+      <workItem from="1761996698833" duration="970000" />
+      <workItem from="1761997705174" duration="380000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -154,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761765411887</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added securityFiles">
+      <option name="closed" value="true" />
+      <created>1761916181816</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761916181816</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +183,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Created Notifications, RestorePasswordMail, TechStack, UserRating, VerifyMail" />
     <MESSAGE value="deleted unused import" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted unused import" />
+    <MESSAGE value="Added securityFiles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added securityFiles" />
   </component>
 </project>

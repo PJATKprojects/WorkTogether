@@ -19,5 +19,6 @@ public class OwnSecurity {
     private String password;
 
     @OneToOne
+    @JoinColumn(name = "user_id", nullable = false, unique = true)
     User user;
 }

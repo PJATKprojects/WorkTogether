@@ -25,5 +25,6 @@ public class VerifyMail {
     LocalDateTime expiryDate;
 
     @OneToOne(cascade = CascadeType.DETACH)
+    @JoinColumn(name = "user_id", nullable = false)
     User user;
 }

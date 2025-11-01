@@ -26,6 +26,11 @@ public class TechStack {
     @ManyToMany(mappedBy = "techStacks")
     private Set<User> users;
 
-    @ManyToMany(mappedBy = "techStack")
+    @ManyToMany
+    @JoinTable(
+            name = "project_tech_stack",
+            joinColumns = @JoinColumn(name = "tech_stack_id"),
+            inverseJoinColumns = @JoinColumn(name = "project_id")
+    )
     private Set<Project> projects;
 }
